@@ -14,4 +14,4 @@ This website is a place to show about me and the skill that I have.
 
 ## Preview
 
-![preview](preview/personalWebsite.jpg)
+![preview home](/preview/home.jpg)
