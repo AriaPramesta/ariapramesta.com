@@ -39,7 +39,9 @@ function App() {
       </div>
 
       <div className="fixed bottom-0 w-screen">
-        <p className="text-center font-semibold">© 2024 Aria Adi Pramesta</p>
+        <p className="text-center font-semibold text-xs">
+          © 2024 Aria Adi Pramesta
+        </p>
       </div>
     </div>
   );
