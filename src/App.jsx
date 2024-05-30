@@ -5,20 +5,18 @@ function App() {
   return (
     <div className="w-full h-screen bg-stone-950 text-white font-mono">
       <div className="mx-3">
-        <div className="pt-20 flex flex-col">
-          <h1 className="font-bold text-2xl text-center">Aria Adi Pramesta</h1>
-          <p className="font-semibold text-xs text-center">
+        <div className="pt-20 flex flex-col mb-5">
+          <h1 className="font-bold text-2xl">Aria Adi Pramesta</h1>
+          <p className="font-semibold text-xs ">
             Senior high school graduate in 2023
           </p>
         </div>
-        <div className="">
-          <div className="m-8">
-            <img
-              src="/assets/profile.jpeg"
-              alt="profile"
-              className=" h-64 mx-auto rounded-xl"
-            />
-          </div>
+        <div className="flex gap-4">
+          <img
+            src="/assets/profile.jpeg"
+            alt="profile"
+            className=" h-36 rounded-xl"
+          />
 
           <div className="flex flex-col">
             <h2 className="flex items-center gap-2">
