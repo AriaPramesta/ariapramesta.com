@@ -29,7 +29,7 @@ function App() {
               <p className="text-md font-semibold">Education</p>
             </h2>
 
-            <p className="text-xs">
+            <p className="text-xs opacity-75">
               Now, I am continuing my education at Bearmentor Bootcamp to
               increase my knowledge, I am learning about Full Stack Web
               Development to become a programmer.
