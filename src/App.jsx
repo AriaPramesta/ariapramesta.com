@@ -4,18 +4,19 @@ import Navbar from "./components/navbar";
 function App() {
   return (
     <div className="w-full h-screen bg-stone-950 text-white font-mono">
-      <div className="mx-3">
-        <div className="pt-20 flex flex-col mb-5">
-          <h1 className="font-bold text-2xl">Aria Adi Pramesta</h1>
+      <Navbar />
+      <div className="mx-5">
+        <div className="pt-20 flex flex-col mb-10 items-center">
+          <h1 className="font-bold text-3xl">Aria Adi Pramesta</h1>
           <p className="font-semibold text-xs ">
             Senior high school graduate in 2023
           </p>
         </div>
-        <div className="flex gap-4">
+        <div className="flex flex-col gap-10">
           <img
             src="/assets/profile.jpeg"
             alt="profile"
-            className=" h-36 rounded-xl"
+            className=" mx-28 rounded-xl"
           />
 
           <div className="flex flex-col">
