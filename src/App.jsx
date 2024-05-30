@@ -3,34 +3,34 @@ import Navbar from "./components/navbar";
 
 function App() {
   return (
-    <div className=" bg-stone-950 h-screen text-white font-mono ">
-      <Navbar />
-
-      <div className="w-[640px] mx-auto pt-40 sm:mx-6">
-        <div className="mb-16">
-          <h1 className=" text-6xl text-white font-bold sm:text-5xl">
-            Aria Adi Pramesta
-          </h1>
-          <p className="font-semibold">Senior high school graduate in 2023</p>
+    <div className="w-full h-screen bg-stone-950 text-white font-mono">
+      <div className="mx-3">
+        <div className="pt-20 flex flex-col">
+          <h1 className="font-bold text-2xl text-center">Aria Adi Pramesta</h1>
+          <p className="font-semibold text-xs text-center">
+            Senior high school graduate in 2023
+          </p>
         </div>
-        <div className="flex gap-14 items-start">
-          <img
-            src="/assets/profile.jpeg"
-            alt="profile"
-            className="rounded-xl h-96 sm:h-64"
-          />
+        <div className="">
+          <div className="m-8">
+            <img
+              src="/assets/profile.jpeg"
+              alt="profile"
+              className=" h-64 mx-auto rounded-xl"
+            />
+          </div>
 
-          <div>
-            <h2 className="flex items-end gap-3 mb-2">
+          <div className="flex flex-col">
+            <h2 className="flex items-center gap-2">
               <img
                 src="/assets/bearmentor-bear.png"
                 alt="bearmentor logo"
-                className="h-10"
+                className="h-5"
               />
-              <p className="font-semibold text-3xl">Education</p>
+              <p className="text-md font-semibold">Education</p>
             </h2>
 
-            <p className="opacity-70 sm:text-sm">
+            <p className="text-xs">
               Now, I am continuing my education at Bearmentor Bootcamp to
               increase my knowledge, I am learning about Full Stack Web
               Development to become a programmer.
