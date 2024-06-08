@@ -1,6 +1,6 @@
 export default function Projects() {
   return (
-    <div className="w-[640px] mx-auto mb-32">
+    <div className="w-[640px] mx-auto mb-32 pt-20" id="projects">
       <div className="flex gap-3 items-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"

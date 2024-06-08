@@ -30,11 +30,11 @@ export default function Navbar() {
         <div className="flex items-center bg-[rgba(0,0,0,0.2)] px-7 py-5 backdrop-blur">
           <ul className="mx-auto">
             <li className="flex gap-10">
-              <HomeIcon homeUrl="/" />
-              <Navigate url="/">Education</Navigate>
-              <Navigate url="/">Skills</Navigate>
-              <Navigate url="/">Projects</Navigate>
-              <Navigate url="/">Contact</Navigate>
+              <HomeIcon homeUrl="#home" />
+              <Navigate url="#education">Education</Navigate>
+              <Navigate url="#skill">Skills</Navigate>
+              <Navigate url="#projects">Projects</Navigate>
+              <Navigate url="#contact">Contact</Navigate>
             </li>
           </ul>
         </div>

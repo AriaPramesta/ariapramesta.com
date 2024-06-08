@@ -1,6 +1,6 @@
 export default function Skills() {
   return (
-    <div className="max-w-[640px] mx-auto mb-32">
+    <div className="max-w-[640px] mx-auto mb-32 pt-20" id="skill">
       <div className="flex gap-3 items-center mb-10">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -21,35 +21,78 @@ export default function Skills() {
         <h1 className="font-bold text-3xl">Skills</h1>
       </div>
 
+      <p className="mb-10">
+        These are things I learned either independently or while attending
+        bootcamp.
+      </p>
+
       <div className="flex gap-10 flex-wrap justify-around">
-        <div className=" w-56 h-72 bg-stone-950 p-10 rounded-xl shadow-lg shadow-stone-700">
-          <div className="bg-white rounded-full p-5">
-            <img src="./public/assets/html.png" alt="html" />
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+          target="blank"
+        >
+          <div className=" w-56 h-72 bg-stone-950 p-10 rounded-xl shadow-lg shadow-stone-700 flex flex-col justify-evenly gap-5 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+            <div className="bg-white rounded-full p-5">
+              <img src="./public/assets/html.png" alt="html" />
+            </div>
+            <div className="text-center font-bold text-xl">HTML</div>
           </div>
-        </div>
-        <div className=" w-56 h-72 bg-stone-950 p-10 rounded-xl shadow-lg shadow-stone-700">
-          <div className="bg-white rounded-full p-5">
-            <img src="./public/assets/css.png" alt="css" />
+        </a>
+
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+          target="blank"
+        >
+          <div className=" w-56 h-72 bg-stone-950 p-10 rounded-xl shadow-lg shadow-stone-700 flex flex-col justify-evenly gap-5 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+            <div className="bg-white rounded-full p-5">
+              <img src="./public/assets/css.png" alt="html" />
+            </div>
+            <div>
+              <h1 className="text-center font-bold text-xl">CSS</h1>
+              <p className="text-xs text-center font-semibold">
+                CSS3 & TailwindCSS
+              </p>
+            </div>
           </div>
-        </div>
-        <div className=" w-56 h-72 bg-stone-950 p-10 rounded-xl shadow-lg shadow-stone-700">
-          <div className="bg-white rounded-full p-5">
-            <img src="./public/assets/js.png" alt="js" />
+        </a>
+
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Web/javascript"
+          target="blank"
+        >
+          <div className=" w-56 h-72 bg-stone-950 p-10 rounded-xl shadow-lg shadow-stone-700 flex flex-col justify-evenly gap-5 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+            <div className="bg-white rounded-full p-5">
+              <img src="./public/assets/js.png" alt="html" />
+            </div>
+            <div className="text-center font-bold text-xl">JavaScript</div>
           </div>
-        </div>
-        <div className=" w-56 h-72 bg-stone-950 p-10 rounded-xl shadow-lg shadow-stone-700">
-          <div className="bg-white rounded-full p-5">
-            <img src="./public/assets/react.png" alt="react" />
+        </a>
+
+        <a href="https://react.dev/" target="blank">
+          <div className=" w-56 h-72 bg-stone-950 p-10 rounded-xl shadow-lg shadow-stone-700 flex flex-col justify-evenly gap-5 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+            <div className="bg-white rounded-full p-5">
+              <img src="./public/assets/react.png" alt="html" />
+            </div>
+            <div className="text-center font-bold text-xl">React</div>
           </div>
-        </div>
-        <div className=" w-56 h-72 bg-stone-950 p-10 rounded-xl shadow-lg shadow-stone-700">
+        </a>
+
+        <div className=" w-56 h-72 bg-stone-950 p-10 rounded-xl shadow-lg shadow-stone-700 flex flex-col justify-evenly gap-5 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
           <div className="bg-white rounded-full p-5">
-            <img src="./public/assets/database.png" alt="database" />
+            <img src="./public/assets/api.png" alt="html" />
           </div>
+          <div className="text-center font-bold text-xl">API</div>
         </div>
-        <div className=" w-56 h-72 bg-stone-950 p-10 rounded-xl shadow-lg shadow-stone-700">
+
+        <div className=" w-56 h-72 bg-stone-950 p-10 rounded-xl shadow-lg shadow-stone-700 flex flex-col justify-evenly gap-5 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
           <div className="bg-white rounded-full p-5">
-            <img src="./public/assets/api.png" alt="api" />
+            <img src="./public/assets/database.png" alt="html" />
+          </div>
+          <div>
+            <h1 className="text-center font-bold text-xl">Database</h1>
+            <p className="text-xs text-center font-semibold">
+              MySQL & PostgreSQL
+            </p>
           </div>
         </div>
       </div>
