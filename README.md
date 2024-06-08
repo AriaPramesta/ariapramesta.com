@@ -11,6 +11,11 @@ This website is a place to show about me and the skill that I have.
 - Website: [ariapramesta.com](https://ariapramesta-com.vercel.app/)
 - GitHub: [github.com/AriaPramesta](https://github.com/AriaPramesta)
 
+## Technologies
+
+- React
+- TailwindCSS
+
 ## Preview
 
 ![preview home](/public/assets/home.png)
