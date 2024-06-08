@@ -32,8 +32,8 @@ export default function Navbar() {
             <li className="flex gap-10">
               <HomeIcon homeUrl="/" />
               <Navigate url="/">Education</Navigate>
-              <Navigate url="/">Skill</Navigate>
-              <Navigate url="/">Project</Navigate>
+              <Navigate url="/">Skills</Navigate>
+              <Navigate url="/">Projects</Navigate>
               <Navigate url="/">Contact</Navigate>
             </li>
           </ul>

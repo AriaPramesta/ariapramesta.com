@@ -1,6 +1,6 @@
 export default function Education() {
   return (
-    <div className="w-[640px] mx-auto">
+    <div className="w-[640px] mx-auto mb-32">
       <div className="flex gap-3 items-center mb-10">
         <svg
           xmlns="http://www.w3.org/2000/svg"
