@@ -1,7 +1,7 @@
 export default function Projects() {
   return (
     <div className="w-[640px] mx-auto mb-32 pt-20" id="projects">
-      <div className="flex gap-3 items-center">
+      <div className="flex gap-3 items-center mb-10">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -21,8 +21,49 @@ export default function Projects() {
         <h1 className="font-bold text-3xl">Projects</h1>
       </div>
 
-      <div>
-        <div></div>
+      <p className="mb-10">
+        Besides this personal website, these are the projects I have created.
+      </p>
+
+      <div className="flex gap-16 flex-row overflow-y-auto p-5 scrollbar-thin">
+        <a href="https://contact-app-flame-chi.vercel.app/" target="blank">
+          <div className="w-96 h-64 bg-black p-5 rounded-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 shadow-lg shadow-stone-700">
+            <div>
+              <img
+                src="./public/assets/contactApp.png"
+                alt="contactApp"
+                className="rounded-xl"
+              />
+            </div>
+            <h1 className="font-bold text-center text-xl mt-5">Contact App</h1>
+          </div>
+        </a>
+
+        <a href="https://what-todo-omega.vercel.app/" target="blank">
+          <div className="w-96 h-64 bg-black p-5 rounded-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 shadow-lg shadow-stone-700">
+            <div>
+              <img
+                src="./public/assets/what-todo.png"
+                alt="contactApp"
+                className="rounded-xl"
+              />
+            </div>
+            <h1 className="font-bold text-center text-xl mt-5">What To Do?</h1>
+          </div>
+        </a>
+
+        <a href="https://the-writers.onrender.com/" target="blank">
+          <div className="w-96 h-64 bg-black p-5 rounded-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 shadow-lg shadow-stone-700">
+            <div>
+              <img
+                src="./public/assets/the-writers.png"
+                alt="contactApp"
+                className="rounded-xl"
+              />
+            </div>
+            <h1 className="font-bold text-center text-xl mt-5">The Writers</h1>
+          </div>
+        </a>
       </div>
     </div>
   );
