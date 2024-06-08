@@ -30,7 +30,7 @@ export default function Contact() {
         >
           <div className="bg-black px-14 py-10 rounded-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 shadow-lg shadow-stone-700">
             <div className="bg-white rounded-full p-5 mb-10">
-              <img src="./public/assets/linkedin.png" alt="linkedin" />
+              <img src="/assets/linkedin.png" alt="linkedin" />
             </div>
             <h1 className="text-center font-bold text-xl">LinkedIn</h1>
           </div>
@@ -39,7 +39,7 @@ export default function Contact() {
         <a href="https://github.com/AriaPramesta" target="blank">
           <div className="bg-black px-14 py-10 rounded-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 shadow-lg shadow-stone-700">
             <div className="bg-white rounded-full p-5 mb-10">
-              <img src="./public/assets/github.png" alt="github" />
+              <img src="/assets/github.png" alt="github" />
             </div>
             <h1 className="text-center font-bold text-xl">GitHub</h1>
           </div>
