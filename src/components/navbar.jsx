@@ -31,8 +31,10 @@ export default function Navbar() {
           <ul className="mx-auto">
             <li className="flex gap-10">
               <HomeIcon homeUrl="/" />
-              <Navigate url="/">About</Navigate>
+              <Navigate url="/">Education</Navigate>
+              <Navigate url="/">Skill</Navigate>
               <Navigate url="/">Project</Navigate>
+              <Navigate url="/">Contact</Navigate>
             </li>
           </ul>
         </div>
