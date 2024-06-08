@@ -30,7 +30,7 @@ export default function Projects() {
           <div className="w-[550px] bg-black p-5 rounded-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 shadow-lg shadow-stone-700">
             <div>
               <img
-                src="./public/assets/contactApp.png"
+                src="/assets/contactApp.png"
                 alt="contactApp"
                 className="rounded-xl"
               />
@@ -46,7 +46,7 @@ export default function Projects() {
           <div className="w-[550px] bg-black p-5 rounded-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 shadow-lg shadow-stone-700">
             <div>
               <img
-                src="./public/assets/what-todo.png"
+                src="/assets/what-todo.png"
                 alt="contactApp"
                 className="rounded-xl"
               />
@@ -62,7 +62,7 @@ export default function Projects() {
           <div className="w-[550px] bg-black p-5 rounded-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 shadow-lg shadow-stone-700">
             <div>
               <img
-                src="./public/assets/the-writers.png"
+                src="/assets/the-writers.png"
                 alt="contactApp"
                 className="rounded-xl"
               />

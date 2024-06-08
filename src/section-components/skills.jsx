@@ -33,7 +33,7 @@ export default function Skills() {
         >
           <div className=" w-56 h-72 bg-stone-950 p-10 rounded-xl shadow-lg shadow-stone-700 flex flex-col justify-evenly gap-5 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
             <div className="bg-white rounded-full p-5">
-              <img src="./public/assets/html.png" alt="html" />
+              <img src="/assets/html.png" alt="html" />
             </div>
             <div className="text-center font-bold text-xl">HTML</div>
           </div>
@@ -45,7 +45,7 @@ export default function Skills() {
         >
           <div className=" w-56 h-72 bg-stone-950 p-10 rounded-xl shadow-lg shadow-stone-700 flex flex-col justify-evenly gap-5 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
             <div className="bg-white rounded-full p-5">
-              <img src="./public/assets/css.png" alt="html" />
+              <img src="/assets/css.png" alt="html" />
             </div>
             <div>
               <h1 className="text-center font-bold text-xl">CSS</h1>
@@ -62,7 +62,7 @@ export default function Skills() {
         >
           <div className=" w-56 h-72 bg-stone-950 p-10 rounded-xl shadow-lg shadow-stone-700 flex flex-col justify-evenly gap-5 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
             <div className="bg-white rounded-full p-5">
-              <img src="./public/assets/js.png" alt="html" />
+              <img src="/assets/js.png" alt="html" />
             </div>
             <div className="text-center font-bold text-xl">JavaScript</div>
           </div>
@@ -71,7 +71,7 @@ export default function Skills() {
         <a href="https://react.dev/" target="blank">
           <div className=" w-56 h-72 bg-stone-950 p-10 rounded-xl shadow-lg shadow-stone-700 flex flex-col justify-evenly gap-5 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
             <div className="bg-white rounded-full p-5">
-              <img src="./public/assets/react.png" alt="html" />
+              <img src="/assets/react.png" alt="html" />
             </div>
             <div className="text-center font-bold text-xl">React</div>
           </div>
@@ -83,7 +83,7 @@ export default function Skills() {
         >
           <div className=" w-56 h-72 bg-stone-950 p-10 rounded-xl shadow-lg shadow-stone-700 flex flex-col justify-evenly gap-5 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
             <div className="bg-white rounded-full p-5">
-              <img src="./public/assets/api.png" alt="html" />
+              <img src="/assets/api.png" alt="html" />
             </div>
             <div className="text-center font-bold text-xl">Rest API</div>
           </div>
@@ -92,7 +92,7 @@ export default function Skills() {
         <a href="">
           <div className=" w-56 h-72 bg-stone-950 p-10 rounded-xl shadow-lg shadow-stone-700 flex flex-col justify-evenly gap-5 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
             <div className="bg-white rounded-full p-5">
-              <img src="./public/assets/database.png" alt="html" />
+              <img src="/assets/database.png" alt="html" />
             </div>
             <div>
               <h1 className="text-center font-bold text-xl">Database</h1>
