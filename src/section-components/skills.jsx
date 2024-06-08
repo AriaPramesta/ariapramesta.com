@@ -26,7 +26,7 @@ export default function Skills() {
         bootcamp.
       </p>
 
-      <div className="flex gap-16 flex-row overflow-y-auto p-5 scrollbar-thin">
+      <div className="flex gap-16 flex-row overflow-y-auto py-10 px-5 scrollbar-thin">
         <a
           href="https://developer.mozilla.org/en-US/docs/Web/HTML"
           target="blank"

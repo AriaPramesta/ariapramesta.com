@@ -25,9 +25,9 @@ export default function Projects() {
         Besides this personal website, these are the projects I have created.
       </p>
 
-      <div className="flex gap-16 flex-row overflow-y-auto p-5 scrollbar-thin">
+      <div className="flex gap-16 flex-row overflow-y-auto p-10 scrollbar-thin">
         <a href="https://contact-app-flame-chi.vercel.app/" target="blank">
-          <div className="w-96 h-64 bg-black p-5 rounded-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 shadow-lg shadow-stone-700">
+          <div className="w-[550px] bg-black p-5 rounded-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 shadow-lg shadow-stone-700">
             <div>
               <img
                 src="./public/assets/contactApp.png"
@@ -36,11 +36,14 @@ export default function Projects() {
               />
             </div>
             <h1 className="font-bold text-center text-xl mt-5">Contact App</h1>
+            <p className="text-xs text-center font-semibold mt-3">
+              Contact application using JavaScript
+            </p>
           </div>
         </a>
 
         <a href="https://what-todo-omega.vercel.app/" target="blank">
-          <div className="w-96 h-64 bg-black p-5 rounded-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 shadow-lg shadow-stone-700">
+          <div className="w-[550px] bg-black p-5 rounded-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 shadow-lg shadow-stone-700">
             <div>
               <img
                 src="./public/assets/what-todo.png"
@@ -49,11 +52,14 @@ export default function Projects() {
               />
             </div>
             <h1 className="font-bold text-center text-xl mt-5">What To Do?</h1>
+            <p className="text-xs text-center font-semibold mt-3">
+              Todo application using React
+            </p>
           </div>
         </a>
 
         <a href="https://the-writers.onrender.com/" target="blank">
-          <div className="w-96 h-64 bg-black p-5 rounded-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 shadow-lg shadow-stone-700">
+          <div className="w-[550px] bg-black p-5 rounded-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 shadow-lg shadow-stone-700">
             <div>
               <img
                 src="./public/assets/the-writers.png"
@@ -62,6 +68,9 @@ export default function Projects() {
               />
             </div>
             <h1 className="font-bold text-center text-xl mt-5">The Writers</h1>
+            <p className="text-xs text-center font-semibold mt-3">
+              Encyclopedia application Rest API
+            </p>
           </div>
         </a>
       </div>

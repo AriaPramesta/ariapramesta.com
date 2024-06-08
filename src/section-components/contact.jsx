@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <div className="w-[640px] mx-auto mb-80 pt-20" id="contact">
+    <div className="w-[640px] mx-auto mb-80 pt-10" id="contact">
       <div className="flex gap-3 items-center mb-10">
         <svg
           xmlns="http://www.w3.org/2000/svg"
