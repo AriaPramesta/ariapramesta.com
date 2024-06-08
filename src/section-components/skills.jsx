@@ -1,7 +1,7 @@
 export default function Skills() {
   return (
-    <div className="w-[640px] mx-auto mb-32">
-      <div className="flex gap-3 items-center">
+    <div className="max-w-[640px] mx-auto mb-32">
+      <div className="flex gap-3 items-center mb-10">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -21,8 +21,37 @@ export default function Skills() {
         <h1 className="font-bold text-3xl">Skills</h1>
       </div>
 
-      <div>
-        <div></div>
+      <div className="flex gap-10 flex-wrap justify-around">
+        <div className=" w-56 h-72 bg-stone-950 p-10 rounded-xl shadow-lg shadow-stone-700">
+          <div className="bg-white rounded-full p-5">
+            <img src="./public/assets/html.png" alt="html" />
+          </div>
+        </div>
+        <div className=" w-56 h-72 bg-stone-950 p-10 rounded-xl shadow-lg shadow-stone-700">
+          <div className="bg-white rounded-full p-5">
+            <img src="./public/assets/css.png" alt="css" />
+          </div>
+        </div>
+        <div className=" w-56 h-72 bg-stone-950 p-10 rounded-xl shadow-lg shadow-stone-700">
+          <div className="bg-white rounded-full p-5">
+            <img src="./public/assets/js.png" alt="js" />
+          </div>
+        </div>
+        <div className=" w-56 h-72 bg-stone-950 p-10 rounded-xl shadow-lg shadow-stone-700">
+          <div className="bg-white rounded-full p-5">
+            <img src="./public/assets/react.png" alt="react" />
+          </div>
+        </div>
+        <div className=" w-56 h-72 bg-stone-950 p-10 rounded-xl shadow-lg shadow-stone-700">
+          <div className="bg-white rounded-full p-5">
+            <img src="./public/assets/database.png" alt="database" />
+          </div>
+        </div>
+        <div className=" w-56 h-72 bg-stone-950 p-10 rounded-xl shadow-lg shadow-stone-700">
+          <div className="bg-white rounded-full p-5">
+            <img src="./public/assets/api.png" alt="api" />
+          </div>
+        </div>
       </div>
     </div>
   );
