@@ -1,7 +1,7 @@
 export default function Contact() {
   return (
-    <div className="w-[640px] mx-auto mb-32 pt-20" id="contact">
-      <div className="flex gap-3 items-center">
+    <div className="w-[640px] mx-auto mb-80 pt-20" id="contact">
+      <div className="flex gap-3 items-center mb-10">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -21,8 +21,29 @@ export default function Contact() {
         <h1 className="font-bold text-3xl">Contact</h1>
       </div>
 
-      <div>
-        <div></div>
+      <p className="mb-10">Lets get connected on these platform!</p>
+
+      <div className="flex justify-between">
+        <a
+          href="https://www.linkedin.com/in/aria-pramesta-a015672b4/"
+          target="blank"
+        >
+          <div className="bg-black px-14 py-10 rounded-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 shadow-lg shadow-stone-700">
+            <div className="bg-white rounded-full p-5 mb-10">
+              <img src="./public/assets/linkedin.png" alt="linkedin" />
+            </div>
+            <h1 className="text-center font-bold text-xl">LinkedIn</h1>
+          </div>
+        </a>
+
+        <a href="https://github.com/AriaPramesta" target="blank">
+          <div className="bg-black px-14 py-10 rounded-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 shadow-lg shadow-stone-700">
+            <div className="bg-white rounded-full p-5 mb-10">
+              <img src="./public/assets/github.png" alt="github" />
+            </div>
+            <h1 className="text-center font-bold text-xl">GitHub</h1>
+          </div>
+        </a>
       </div>
     </div>
   );

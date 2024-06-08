@@ -26,7 +26,7 @@ export default function Skills() {
         bootcamp.
       </p>
 
-      <div className="flex gap-10 flex-wrap justify-around">
+      <div className="flex gap-16 flex-row overflow-y-auto p-5 scrollbar-thin">
         <a
           href="https://developer.mozilla.org/en-US/docs/Web/HTML"
           target="blank"
@@ -77,24 +77,31 @@ export default function Skills() {
           </div>
         </a>
 
-        <div className=" w-56 h-72 bg-stone-950 p-10 rounded-xl shadow-lg shadow-stone-700 flex flex-col justify-evenly gap-5 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
-          <div className="bg-white rounded-full p-5">
-            <img src="./public/assets/api.png" alt="html" />
+        <a
+          href="https://www.techtarget.com/searchapparchitecture/definition/RESTful-API#:~:text=A%20RESTful%20API%20is%20an,deleting%20operations%20related%20to%20resources."
+          target="blank"
+        >
+          <div className=" w-56 h-72 bg-stone-950 p-10 rounded-xl shadow-lg shadow-stone-700 flex flex-col justify-evenly gap-5 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+            <div className="bg-white rounded-full p-5">
+              <img src="./public/assets/api.png" alt="html" />
+            </div>
+            <div className="text-center font-bold text-xl">Rest API</div>
           </div>
-          <div className="text-center font-bold text-xl">API</div>
-        </div>
+        </a>
 
-        <div className=" w-56 h-72 bg-stone-950 p-10 rounded-xl shadow-lg shadow-stone-700 flex flex-col justify-evenly gap-5 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
-          <div className="bg-white rounded-full p-5">
-            <img src="./public/assets/database.png" alt="html" />
+        <a href="">
+          <div className=" w-56 h-72 bg-stone-950 p-10 rounded-xl shadow-lg shadow-stone-700 flex flex-col justify-evenly gap-5 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+            <div className="bg-white rounded-full p-5">
+              <img src="./public/assets/database.png" alt="html" />
+            </div>
+            <div>
+              <h1 className="text-center font-bold text-xl">Database</h1>
+              <p className="text-xs text-center font-semibold">
+                MySQL & PostgreSQL
+              </p>
+            </div>
           </div>
-          <div>
-            <h1 className="text-center font-bold text-xl">Database</h1>
-            <p className="text-xs text-center font-semibold">
-              MySQL & PostgreSQL
-            </p>
-          </div>
-        </div>
+        </a>
       </div>
     </div>
   );
