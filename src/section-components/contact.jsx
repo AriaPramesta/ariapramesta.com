@@ -1,7 +1,7 @@
 export default function Contact() {
   return (
     <>
-      <div className="block md:hidden mx-5 mb-32">
+      <div className="block md:hidden mx-5 mb-64">
         <div className="flex gap-3 items-center mb-5">
           <svg
             xmlns="http://www.w3.org/2000/svg"
