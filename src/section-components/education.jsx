@@ -9,7 +9,11 @@ export default function Education() {
 
   return (
     <>
-      <div className="block md:hidden mx-5 mb-20" id="educationMobile">
+      <div
+        className="block md:hidden mx-5 mb-20"
+        id="educationMobile"
+        data-aos="fade-left"
+      >
         <div className="flex gap-2 items-center mb-5">
           <svg
             xmlns="http://www.w3.org/2000/svg"

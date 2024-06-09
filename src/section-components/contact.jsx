@@ -9,7 +9,11 @@ export default function Contact() {
 
   return (
     <>
-      <div className="block md:hidden mx-5 mb-64" id="contactMobile">
+      <div
+        className="block md:hidden mx-5 mb-64"
+        id="contactMobile"
+        data-aos="fade-up"
+      >
         <div className="flex gap-3 items-center mb-5">
           <svg
             xmlns="http://www.w3.org/2000/svg"
