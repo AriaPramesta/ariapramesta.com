@@ -8,7 +8,7 @@ import Contact from "./section-components/contact";
 
 function App() {
   return (
-    <div className="w-full bg-stone-900 text-white font-mono">
+    <div>
       <Navbar />
 
       <Home />
