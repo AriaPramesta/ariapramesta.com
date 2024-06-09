@@ -1,11 +1,18 @@
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 import HomeIcon from "./homeicon";
 import Navigate from "./navigate";
 
 export default function Navbar() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
-      <div className="block md:hidden fixed w-screen">
-        <div className="flex items-center justify-between bg-[rgba(0,0,0,0.4)] px-6 py-4 backdrop-blur">
+      <div className="block md:hidden fixed w-screen" data-aos="fade-down">
+        <div className="flex items-center justify-between bg-[rgba(0,0,0,0.2)] px-6 py-4 backdrop-blur">
           <HomeIcon homeUrl="#homeMobile" />
           <button>
             <svg
@@ -26,8 +33,11 @@ export default function Navbar() {
         </div>
       </div>
 
-      <div className="hidden md:block fixed w-screen">
-        <div className="flex items-center bg-[rgba(0,0,0,0.3)] px-7 py-5 backdrop-blur">
+      <div
+        className="hidden md:block fixed top-0 w-screen"
+        data-aos="fade-down"
+      >
+        <div className="flex items-center bg-[rgba(0,0,0,0.2)] px-7 py-5 backdrop-blur">
           <ul className="mx-auto">
             <li className="flex gap-10">
               <HomeIcon homeUrl="#home" />
