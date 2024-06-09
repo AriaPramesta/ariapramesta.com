@@ -1,4 +1,12 @@
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 export default function Education() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <>
       <div className="block md:hidden mx-5 mb-20" id="educationMobile">
@@ -46,6 +54,7 @@ export default function Education() {
       <div
         className="hidden md:block w-[640px] mx-auto mb-32 pt-20"
         id="education"
+        data-aos="fade-left"
       >
         <div className="flex gap-3 items-center mb-10">
           <svg

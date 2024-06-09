@@ -11,7 +11,7 @@ function App() {
     <div>
       <Navbar />
 
-      <Home />
+      <Home data-aos="fade-down" />
 
       <Education />
 

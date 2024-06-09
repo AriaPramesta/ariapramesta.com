@@ -1,4 +1,11 @@
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 export default function Home() {
+  useEffect(() => {
+    AOS.init({ duration: 1300 });
+  }, []);
   return (
     <>
       <div className="block md:hidden pt-24 mx-5 mb-20" id="homeMobile">
@@ -24,7 +31,11 @@ export default function Home() {
         </div>
       </div>
 
-      <div className=" hidden md:block w-[640px] mx-auto pt-64 mb-32" id="home">
+      <div
+        className=" hidden md:block w-[640px] mx-auto pt-64 mb-32"
+        id="home"
+        data-aos="fade-down"
+      >
         <div className=" mb-16">
           <h1 className=" text-5xl text-white font-bold">Aria Adi Pramesta</h1>
           <p className="font-semibold text-xl mb-3">
