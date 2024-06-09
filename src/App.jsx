@@ -8,7 +8,7 @@ import Contact from "./section-components/contact";
 
 function App() {
   return (
-    <div>
+    <div className=" overflow-x-hidden">
       <Navbar />
 
       <Home />
