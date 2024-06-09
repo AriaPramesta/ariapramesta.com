@@ -22,7 +22,7 @@ export default function Projects() {
           <h1 className="font-bold text-xl">Projects</h1>
         </div>
 
-        <p className="mb-5">
+        <p className="mb-5 text-xs">
           Besides this personal website, these are the projects I have created.
         </p>
 
