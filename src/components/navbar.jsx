@@ -4,7 +4,7 @@ import Navigate from "./navigate";
 export default function Navbar() {
   return (
     <>
-      <div className="block md:hidden fixed w-full">
+      <div className="block md:hidden fixed w-screen">
         <div className="flex items-center justify-between bg-[rgba(0,0,0,0.3)] px-6 py-4 backdrop-blur">
           <HomeIcon homeUrl="#homeMobile" />
           <button>
