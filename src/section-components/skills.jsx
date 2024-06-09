@@ -36,7 +36,7 @@ export default function Skills() {
               <div className="bg-white rounded-full p-5">
                 <img src="/assets/html.png" alt="html" />
               </div>
-              <div className="text-center font-bold text-xl">HTML</div>
+              <div className="text-center font-bold text-lg">HTML</div>
             </div>
           </a>
 
@@ -49,7 +49,7 @@ export default function Skills() {
                 <img src="/assets/css.png" alt="html" />
               </div>
               <div>
-                <h1 className="text-center font-bold text-xl">CSS</h1>
+                <h1 className="text-center font-bold text-lg">CSS</h1>
                 <p className="text-xs text-center font-semibold">
                   CSS3 & TailwindCSS
                 </p>
@@ -65,7 +65,7 @@ export default function Skills() {
               <div className="bg-white rounded-full p-5">
                 <img src="/assets/js.png" alt="html" />
               </div>
-              <div className="text-center font-bold text-xl">JavaScript</div>
+              <div className="text-center font-bold text-lg">JavaScript</div>
             </div>
           </a>
 
@@ -74,7 +74,7 @@ export default function Skills() {
               <div className="bg-white rounded-full p-5">
                 <img src="/assets/react.png" alt="html" />
               </div>
-              <div className="text-center font-bold text-xl">React</div>
+              <div className="text-center font-bold text-lg">React</div>
             </div>
           </a>
 
@@ -86,7 +86,7 @@ export default function Skills() {
               <div className="bg-white rounded-full p-5">
                 <img src="/assets/api.png" alt="html" />
               </div>
-              <div className="text-center font-bold text-xl">Rest API</div>
+              <div className="text-center font-bold text-lg">Rest API</div>
             </div>
           </a>
 
@@ -96,7 +96,7 @@ export default function Skills() {
                 <img src="/assets/database.png" alt="html" />
               </div>
               <div>
-                <h1 className="text-center font-bold text-xl">Database</h1>
+                <h1 className="text-center font-bold text-lg">Database</h1>
                 <p className="text-xs text-center font-semibold">
                   MySQL & PostgreSQL
                 </p>
