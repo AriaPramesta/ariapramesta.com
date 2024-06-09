@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <>
       <div className="block md:hidden fixed w-screen">
-        <div className="flex items-center justify-between bg-white bg-opacity-5 px-6 py-4 backdrop-blur">
+        <div className="flex items-center justify-between bg-[rgba(0,0,0,0.4)] px-6 py-4 backdrop-blur">
           <HomeIcon homeUrl="#homeMobile" />
           <button>
             <svg
