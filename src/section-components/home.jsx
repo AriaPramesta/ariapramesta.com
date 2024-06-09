@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <>
-      <div className="block md:hidden pt-24 mx-5 mb-20">
+      <div className="block md:hidden pt-24 mx-5 mb-20" id="homeMobile">
         <div className="mb-10">
           <h1 className="font-bold text-2xl">Aria Adi Pramesta</h1>
           <p className="text-xs font-semibold">High school graduate in 2023</p>

@@ -1,7 +1,7 @@
 export default function Skills() {
   return (
     <>
-      <div className="block md:hidden mx-5 mb-24">
+      <div className="block md:hidden mx-5 mb-24" id="skillsMobile">
         <div className="flex gap-2 items-center mb-5">
           <svg
             xmlns="http://www.w3.org/2000/svg"

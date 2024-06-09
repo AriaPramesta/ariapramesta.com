@@ -1,7 +1,7 @@
 export default function Contact() {
   return (
     <>
-      <div className="block md:hidden mx-5 mb-64">
+      <div className="block md:hidden mx-5 mb-64" id="contactMobile">
         <div className="flex gap-3 items-center mb-5">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -24,7 +24,7 @@ export default function Contact() {
 
         <p className="mb-5 text-xs">Lets get connected on these platform!</p>
 
-        <div className="flex justify-between">
+        <div className="flex justify-evenly">
           <a
             href="https://www.linkedin.com/in/aria-pramesta-a015672b4/"
             target="blank"
