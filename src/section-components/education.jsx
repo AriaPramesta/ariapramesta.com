@@ -19,12 +19,12 @@ export default function Education() {
             />
           </svg>
 
-          <h1 className="font-bold text-lg">Education</h1>
+          <h1 className="font-bold text-xl">Education</h1>
         </div>
 
         <div className="mb-10">
           <h1 className="font-semibold text-sm mb-3">Self-taught</h1>
-          <p className="text-[10px]">
+          <p className="text-xs">
             Since I graduated from high school, I have studied web development
             self-taught by watching learning videos, such as HTML, CSS, and even
             JavaScript.
@@ -33,7 +33,7 @@ export default function Education() {
 
         <div>
           <h1 className="font-semibold text-sm mb-3">Bearmentor Bootcamp</h1>
-          <p className="text-[10px]">
+          <p className="text-xs">
             I joined Bearmentor Bootcamp to further improve my skills, I learned
             a lot there. starting from Front-End, such as creating a personal
             website that only uses HTML and CSS, learning JavaScript and

@@ -11,11 +11,11 @@ export default function Home() {
           <img
             src="/assets/profile.jpeg"
             alt="profile"
-            className="rounded-xl w-24"
+            className="rounded-xl w-28"
           />
 
           <div>
-            <p className="text-[10px]">
+            <p className="text-xs">
               Hi!, Im only human and a high school graduate, I studied web
               development self-taught and took part in a bootcamp to increase my
               knowledge.
