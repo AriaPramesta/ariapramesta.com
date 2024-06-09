@@ -59,8 +59,9 @@ export default function Contact() {
       <div
         className="hidden md:block w-[640px] mx-auto mb-80 pt-10"
         id="contact"
+        data-aos="fade-up"
       >
-        <div data-aos="fade-left">
+        <div>
           <div className="flex gap-3 items-center mb-10">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -84,7 +85,7 @@ export default function Contact() {
           <p className="mb-10">Lets get connected on these platform!</p>
         </div>
 
-        <div data-aos="fade-up" className="flex justify-between">
+        <div className="flex justify-between">
           <a
             href="https://www.linkedin.com/in/aria-pramesta-a015672b4/"
             target="blank"
