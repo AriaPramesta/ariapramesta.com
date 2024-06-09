@@ -1,7 +1,7 @@
 export default function Education() {
   return (
     <>
-      <div className="block md:hidden mx-5">
+      <div className="block md:hidden mx-5 mb-20">
         <div className="flex gap-2 items-center mb-5">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -23,7 +23,7 @@ export default function Education() {
         </div>
 
         <div className="mb-10">
-          <h1 className="font-semibold text-lg mb-5">Self-taught</h1>
+          <h1 className="font-semibold text-sm mb-3">Self-taught</h1>
           <p className="text-[10px]">
             Since I graduated from high school, I have studied web development
             self-taught by watching learning videos, such as HTML, CSS, and even
@@ -32,7 +32,7 @@ export default function Education() {
         </div>
 
         <div>
-          <h1 className="font-semibold text-lg mb-5">Bearmentor Bootcamp</h1>
+          <h1 className="font-semibold text-sm mb-3">Bearmentor Bootcamp</h1>
           <p className="text-[10px]">
             I joined Bearmentor Bootcamp to further improve my skills, I learned
             a lot there. starting from Front-End, such as creating a personal
