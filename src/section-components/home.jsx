@@ -7,11 +7,11 @@ export default function Home() {
           <p className="text-xs font-semibold">High school graduate in 2023</p>
         </div>
 
-        <div className="flex gap-3">
+        <div className="flex gap-4">
           <img
             src="/assets/profile.jpeg"
             alt="profile"
-            className="rounded-xl w-28"
+            className="rounded-xl w-32"
           />
 
           <div>
