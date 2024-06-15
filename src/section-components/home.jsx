@@ -35,12 +35,8 @@ export default function Home() {
         </div>
       </div>
 
-      <div
-        className=" hidden md:block w-[640px] mx-auto pt-64 mb-32"
-        id="home"
-        data-aos="fade-down"
-      >
-        <div className=" mb-16">
+      <div className=" hidden md:block w-[640px] mx-auto pt-64 mb-32" id="home">
+        <div data-aos="fade-down" className=" mb-16">
           <h1 className=" text-5xl text-white font-bold">Aria Adi Pramesta</h1>
           <p className="font-semibold text-xl mb-3">
             High school graduate in 2023
@@ -54,7 +50,7 @@ export default function Home() {
             className="rounded-xl h-80"
           />
 
-          <div>
+          <div data-aos="fade-down">
             <p>
               Hi!, Im only human and a high school graduate, I studied web
               development self-taught and took part in a bootcamp to increase my

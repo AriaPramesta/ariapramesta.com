@@ -37,10 +37,7 @@ export default function Skills() {
           </p>
         </div>
 
-        <div
-          className="flex gap-10 flex-row overflow-y-auto py-5 scrollbar-thin"
-          data-aos="fade-right"
-        >
+        <div className="flex gap-10 flex-row overflow-y-auto py-5 scrollbar-thin">
           <a
             href="https://developer.mozilla.org/en-US/docs/Web/HTML"
             target="blank"
@@ -149,10 +146,7 @@ export default function Skills() {
           </p>
         </div>
 
-        <div
-          className="flex gap-16 flex-row overflow-y-auto py-10 px-5 scrollbar-thin"
-          data-aos="fade-right"
-        >
+        <div className="flex gap-16 flex-row overflow-y-auto py-10 px-5 scrollbar-thin">
           <a
             href="https://developer.mozilla.org/en-US/docs/Web/HTML"
             target="blank"

@@ -36,10 +36,7 @@ export default function Projects() {
           </p>
         </div>
 
-        <div
-          className="flex gap-16 flex-row overflow-y-auto p-5 scrollbar-thin"
-          data-aos="fade-right"
-        >
+        <div className="flex gap-16 flex-row overflow-y-auto p-5 scrollbar-thin">
           <a href="https://contact-app-flame-chi.vercel.app/" target="blank">
             <div className="w-[300px] bg-black p-5 rounded-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 shadow-lg shadow-stone-700">
               <div>
@@ -127,10 +124,7 @@ export default function Projects() {
           </p>
         </div>
 
-        <div
-          className="flex gap-16 flex-row overflow-y-auto p-10 scrollbar-thin"
-          data-aos="fade-right"
-        >
+        <div className="flex gap-16 flex-row overflow-y-auto p-10 scrollbar-thin">
           <a href="https://contact-app-flame-chi.vercel.app/" target="blank">
             <div className="w-[550px] bg-black p-5 rounded-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 shadow-lg shadow-stone-700">
               <div>
