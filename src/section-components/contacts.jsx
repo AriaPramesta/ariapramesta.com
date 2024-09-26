@@ -16,7 +16,7 @@ export default function Contacts() {
         {socials.map((socials, index) => (
           <div
             key={index}
-            className="hover:shadow-xl pr-6 py-4 md:pr-14 md:py-10 relative drop-shadow-2xl overflow-hidden group"
+            className="hover:shadow-xl px-6 py-4 md:px-0 md:pr-14 md:py-10 relative drop-shadow-2xl overflow-hidden group"
           >
             <a href={socials.link} target="blank">
               <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex justify-end p-4">
