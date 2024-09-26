@@ -9,9 +9,9 @@ export default function Navbar() {
   };
 
   return (
-    <div className="sticky top-0 z-50 bg-white shadow-xl">
+    <div className="sticky top-0 z-50 bg-white shadow-xl text-[8px] md:text-xs xl:text-base">
       <div className="flex justify-between items-center py-5 px-8">
-        <h1 className="md:text-3xl font-bold">Aria Adi Pramesta</h1>
+        <h1 className="text-sm md:text-3xl font-bold">Aria Adi Pramesta</h1>
 
         <div className="lg:hidden" onClick={toggleNavbar}>
           {isOpen ? (
@@ -28,19 +28,19 @@ export default function Navbar() {
         >
           <ul className="flex flex-col lg:flex-row lg:gap-10 lg:items-center text-right">
             <a href="#about">
-              <li className="hover:bg-stone-600 hover:text-white lg:hover:text-black lg:hover:bg-transparent lg:hover:underline active:font-bold md:p-4 lg:p-0">
+              <li className="hover:bg-stone-600 hover:text-white lg:hover:text-black lg:hover:bg-transparent lg:hover:underline active:font-bold p-2 md:p-4 lg:p-0">
                 About Me
               </li>
             </a>
             <a href="#projects">
-              <li className="hover:bg-stone-600 hover:text-white lg:hover:text-black lg:hover:bg-transparent lg:hover:underline active:font-bold md:p-4 lg:p-0">
+              <li className="hover:bg-stone-600 hover:text-white lg:hover:text-black lg:hover:bg-transparent lg:hover:underline active:font-bold p-2 md:p-4 lg:p-0">
                 Projects
               </li>
             </a>
-            <li className="hover:bg-stone-600 hover:text-white lg:hover:text-black lg:hover:bg-transparent lg:hover:underline active:font-bold md:p-4 lg:p-0">
+            <li className="hover:bg-stone-600 hover:text-white lg:hover:text-black lg:hover:bg-transparent lg:hover:underline active:font-bold p-2 md:p-4 lg:p-0">
               Contact
             </li>
-            <li className="flex items-center gap-2 md:p-4 lg:p-0 justify-end">
+            <li className="flex items-center gap-2 p-2 md:p-4 lg:p-0 justify-end">
               <button className="hover:underline active:font-bold">EN</button>
               <p>|</p>
               <button className="hover:underline active:font-bold">ID</button>
