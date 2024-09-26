@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai"; // Import burger and close icons
+import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -37,9 +37,11 @@ export default function Navbar() {
                 Projects
               </li>
             </a>
-            <li className="hover:bg-stone-600 hover:text-white lg:hover:text-black lg:hover:bg-transparent lg:hover:underline active:font-bold p-2 md:p-4 lg:p-0">
-              Contact
-            </li>
+            <a href="#contacts">
+              <li className="hover:bg-stone-600 hover:text-white lg:hover:text-black lg:hover:bg-transparent lg:hover:underline active:font-bold p-2 md:p-4 lg:p-0">
+                Contact
+              </li>
+            </a>
             <li className="flex items-center gap-2 p-2 md:p-4 lg:p-0 justify-end">
               <button className="hover:underline active:font-bold">EN</button>
               <p>|</p>

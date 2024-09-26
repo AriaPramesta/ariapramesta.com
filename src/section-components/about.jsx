@@ -1,4 +1,4 @@
-import { FaHtml5, FaCss3Alt, FaJs, FaReact } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNode } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
 import { SiPostgresql } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
@@ -64,5 +64,10 @@ const skills = [
     id: 7,
     icon: SiPostgresql,
     title: "PostgreSQL",
+  },
+  {
+    id: 8,
+    icon: FaNode,
+    title: "Node JS",
   },
 ];

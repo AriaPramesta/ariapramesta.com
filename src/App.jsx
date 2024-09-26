@@ -2,7 +2,7 @@ import Navbar from "./components/navbar";
 import Home from "./section-components/home";
 import About from "./section-components/about";
 import Projects from "./section-components/projects";
-import Contact from "./section-components/contact";
+import Contacts from "./section-components/contacts";
 
 function App() {
   return (
@@ -16,13 +16,12 @@ function App() {
 
         <Projects />
 
-        <Contact />
-
-        {/* <div className="bottom-0">
+        <Contacts />
+      </div>
+      <div className="bottom-0">
         <p className="text-center font-semibold text-xs sm:text-lg">
-        © 2024 Aria Adi Pramesta
+          © 2024 Aria Adi Pramesta
         </p>
-        </div> */}
       </div>
     </>
   );

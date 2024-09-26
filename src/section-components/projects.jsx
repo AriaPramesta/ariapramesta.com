@@ -11,7 +11,7 @@ export default function Projects() {
         {projects.map((project, index) => (
           <div
             key={index}
-            className="relative mx-4 md:mx-16 lg:mx-32 xl:mx-64 drop-shadow-2xl  overflow-hidden group"
+            className="relative mx-4 md:mx-16 lg:mx-32 xl:mx-64 drop-shadow-2xl overflow-hidden group"
           >
             <a href={project.link} target="blank">
               <img
