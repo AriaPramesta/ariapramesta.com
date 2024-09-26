@@ -1,13 +1,16 @@
 import { FaGithub, FaLinkedin, FaLink } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 export default function Contacts() {
+  const { t } = useTranslation();
+
   return (
     <div id="contacts" className="mb-12">
       <h1 className="md:text-lg xl:text-xl mb-4 md:mb-10 lg:ml-20 md:mt-24">
-        Contacts
+        {t("contacts.title")}
       </h1>
       <p className="text-right opacity-40 md:mr-20 lg:mr-32 md:mb-10">
-        Anti-Social
+        {t("contacts.subtitle")}
       </p>
       <div className="flex justify-around">
         {socials.map((socials, index) => (

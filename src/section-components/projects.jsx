@@ -1,8 +1,13 @@
+import React from "react";
+import { useTranslation } from "react-i18next";
+
 export default function Projects() {
+  const { t } = useTranslation();
+
   return (
     <div id="projects">
       <h1 className="text-right md:text-lg xl:text-xl mb-4 md:mb-14 lg:mr-20 md:mt-24">
-        Projects
+        {t("projects.title")}
       </h1>
       <p className="opacity-40 mx-4 md:mx-16 lg:mx-32 xl:mx-64 mb-5 md:mb-20">
         11:04
@@ -20,10 +25,12 @@ export default function Projects() {
                 className="w-full h-auto object-cover md:h-64 lg:h-80 xl:h-96"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-4">
-                <h3 className="text-white text-lg font-semibold">
-                  {project.title}
+                <h3 className="text-white text-xs md:text-lg font-semibold">
+                  {t(`projects.list.${project.id}.title`)}
                 </h3>
-                <p className="text-white text-sm mt-1">{project.desc}</p>
+                <p className="text-white text-xs md:text-sm mt-1">
+                  {t(`projects.list.${project.id}.desc`)}
+                </p>
               </div>
             </a>
           </div>

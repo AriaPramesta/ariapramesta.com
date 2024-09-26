@@ -3,6 +3,7 @@ import Home from "./section-components/home";
 import About from "./section-components/about";
 import Projects from "./section-components/projects";
 import Contacts from "./section-components/contacts";
+import "./i18n";
 
 function App() {
   return (
