@@ -12,7 +12,7 @@ export default function Projects() {
       <p className="opacity-40 mx-4 md:mx-16 lg:mx-32 xl:mx-64 mb-5 md:mb-20">
         11:04
       </p>
-      <div className="flex flex-col gap-10 md:gap-20">
+      <div className="flex flex-col gap-14 md:gap-24">
         {projects.map((project, index) => (
           <div
             key={index}
