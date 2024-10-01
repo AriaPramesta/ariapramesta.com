@@ -6,10 +6,10 @@ export default function Projects() {
 
   return (
     <div id="projects">
-      <h1 className="text-right md:text-lg xl:text-xl mb-4 md:mb-14 lg:mr-20 md:mt-24">
+      <h1 className="text-right md:text-lg xl:text-xl mb-4 md:mb-14 lg:mr-20 md:mt-24 text-black dark:text-white">
         {t("projects.title")}
       </h1>
-      <p className="opacity-40 mx-4 md:mx-16 lg:mx-32 xl:mx-64 mb-5 md:mb-20">
+      <p className="opacity-40 mx-4 md:mx-16 lg:mx-32 xl:mx-64 mb-5 md:mb-20 text-gray-600 dark:text-gray-400">
         11:04
       </p>
       <div className="flex flex-col gap-14 md:gap-24">

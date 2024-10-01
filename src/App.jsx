@@ -20,7 +20,7 @@ function App() {
         <Contacts />
       </div>
       <div className="bottom-0">
-        <p className="text-center font-semibold text-xs sm:text-lg">
+        <p className="text-center font-semibold text-xs sm:text-lg text-black dark:text-white">
           © 2024 Aria Adi Pramesta
         </p>
       </div>
