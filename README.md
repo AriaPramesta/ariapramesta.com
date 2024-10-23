@@ -15,6 +15,7 @@ This website is a place to show about me and the skill that I have.
 
 - React
 - TailwindCSS
+- Framer motion
 
 ## Preview
 
