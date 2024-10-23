@@ -29,9 +29,9 @@ export default function Navbar() {
   }, [darkMode]);
 
   return (
-    <div className="sticky top-0 z-50 bg-white dark:bg-neutral-800 dark:text-white shadow-xl text-[8px] md:text-xs xl:text-base">
-      <div className="flex justify-between items-center py-5 px-8">
-        <h1 className="text-sm md:text-3xl font-bold">{t("navbar.title")}</h1>
+    <div className="sticky top-0 z-50 bg-white dark:bg-neutral-800 dark:text-white shadow-xl text-[8px] md:text-xs xl:text-md">
+      <div className="flex justify-between items-center py-4 px-8">
+        <h1 className="text-sm md:text-2xl font-bold">{t("navbar.title")}</h1>
 
         <div className="lg:hidden" onClick={toggleNavbar}>
           {isOpen ? (

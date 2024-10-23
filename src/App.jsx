@@ -7,7 +7,7 @@ import "./i18n";
 
 function App() {
   return (
-    <>
+    <div className="">
       <Navbar />
 
       <div className="overflow-x-hidden m-5 md:m-10 xl:m-14 flex flex-col gap-10 text-[6px] md:text-xs xl:text-base">
@@ -24,7 +24,7 @@ function App() {
           © 2024 Aria Adi Pramesta
         </p>
       </div>
-    </>
+    </div>
   );
 }
 

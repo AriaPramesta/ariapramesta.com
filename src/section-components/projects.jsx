@@ -1,24 +1,49 @@
 import React from "react";
+import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
 export default function Projects() {
   const { t } = useTranslation();
 
+  // Variabel untuk animasi judul dan paragraf
+  const titleVariants = {
+    hidden: { opacity: 0, y: -20 }, // Mulai dari opacity 0 dan bergerak ke atas
+    visible: { opacity: 1, y: 0, transition: { duration: 0.5 } }, // Menjadi terlihat
+  };
+
+  const paragraphVariants = {
+    hidden: { opacity: 0, y: -20 }, // Sama seperti judul
+    visible: { opacity: 1, y: 0, transition: { duration: 0.5, delay: 0.2 } }, // Sedikit penundaan
+  };
+
   return (
     <div id="projects">
-      <h1 className="text-right md:text-lg xl:text-xl mb-4 md:mb-14 lg:mr-20 md:mt-24 text-black dark:text-white">
+      <motion.h1
+        className="text-right md:text-lg xl:text-xl mb-4 md:mb-14 lg:mr-20 md:mt-24 text-black dark:text-white"
+        variants={titleVariants}
+        initial="hidden"
+        whileInView="visible"
+      >
         {t("projects.title")}
-      </h1>
-      <p className="opacity-40 mx-4 md:mx-16 lg:mx-32 xl:mx-64 mb-5 md:mb-20 text-gray-600 dark:text-gray-400">
+      </motion.h1>
+      <motion.p
+        className="opacity-40 mx-4 md:mx-16 lg:mx-32 xl:mx-64 mb-5 md:mb-20 text-gray-600 dark:text-gray-400"
+        variants={paragraphVariants}
+        initial="hidden"
+        whileInView="visible"
+      >
         11:04
-      </p>
+      </motion.p>
       <div className="flex flex-col gap-14 md:gap-24">
         {projects.map((project, index) => (
-          <div
+          <motion.div
             key={index}
             className="relative mx-4 md:mx-16 lg:mx-32 xl:mx-64 drop-shadow-2xl overflow-hidden group"
+            initial={{ opacity: 0, x: index % 2 === 0 ? 100 : -100 }} // Muncul dari kanan untuk genap, kiri untuk ganjil
+            whileInView={{ opacity: 1, x: 0 }} // Menjadi terlihat
+            transition={{ duration: 0.7, delay: index * 0.3 }} // Perlambat animasi dengan delay
           >
-            <a href={project.link} target="blank">
+            <a href={project.link} target="_blank" rel="noopener noreferrer">
               <img
                 src={`/assets/${project.img}`}
                 alt={project.title}
@@ -33,7 +58,7 @@ export default function Projects() {
                 </p>
               </div>
             </a>
-          </div>
+          </motion.div>
         ))}
       </div>
     </div>
