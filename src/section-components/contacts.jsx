@@ -7,33 +7,17 @@ export default function Contacts() {
 
   return (
     <div id="contacts" className="mb-12 px-4 md:px-20">
-      <motion.h1
-        className="md:text-lg xl:text-xl mb-4 text-black dark:text-white"
-        initial={{ opacity: 0, y: -20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-      >
+      <h1 className="md:text-lg xl:text-xl mb-4 text-black dark:text-white">
         {t("contacts.title")}
-      </motion.h1>
-      <motion.p
-        className="text-right opacity-70 mb-10 text-gray-600 dark:text-gray-400"
-        initial={{ opacity: 0, y: -20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-      >
+      </h1>
+      <p className="text-right opacity-70 mb-10 text-gray-600 dark:text-gray-400">
         {t("contacts.subtitle")}
-      </motion.p>
-      <motion.div
-        className="flex flex-wrap justify-center"
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-      >
+      </p>
+      <div className="flex flex-wrap justify-center">
         {socials.map((social, index) => (
-          <motion.div
+          <div
             key={index}
-            className="hover:shadow-xl px-6 py-4 relative drop-shadow-2xl overflow-hidden group bg-white dark:bg-neutral-800 transition-colors duration-300 m-4 rounded-lg"
-            whileHover={{ scale: 1.05 }}
+            className="hover:shadow-xl px-6 py-4 relative shadow-xl overflow-hidden group bg-white dark:bg-neutral-800 transition-colors duration-300 m-4 rounded-lg"
           >
             <a href={social.link} target="_blank" rel="noopener noreferrer">
               <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex justify-end p-4">
@@ -47,9 +31,9 @@ export default function Contacts() {
                 </div>
               </div>
             </a>
-          </motion.div>
+          </div>
         ))}
-      </motion.div>
+      </div>
     </div>
   );
 }
